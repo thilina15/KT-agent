@@ -1,0 +1,26 @@
+testing message reply.
+design database relations (chatrooms, messages, agents, tools, prompts, etc)
+    - research about Postgres SQL setup with spring
+    - research about best ways to store this tool templates and other
+    - design the ER diagram
+
+connect Postgres SQL db
+    - setup the connection
+    - create a db class or whatever needs to make CRUD operations (schemas in ORM)
+
+develop chat reply workflow using proper classes and designs
+    - design the classes and the communication between classes (including history).
+    - develop the design
+
+develop basic tools (both db and the code)
+    - design how tools can be fetch from the db and use for the agent
+    - develop the tool system
+
+CRUD APIs for agents (including prompts)
+
+CRUD APIs for tools
+
+admin auth for prompt and tool settings APIs
+    - research about middleware in SpringBoot
+    - develop the admin schema in both db and the code
+    - develop the login and signup for admin
