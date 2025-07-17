@@ -3,3 +3,14 @@ spring:
     name: open-ai-chat
   ai:
     openai.api-key: ${OPENAI_API_KEY}
+
+  datasource:
+    url: jdbc:postgresql://127.0.0.1:5432/agent-system
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
